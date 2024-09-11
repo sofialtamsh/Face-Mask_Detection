@@ -1,15 +1,29 @@
-Mask Classifier
+# Face Mask Detection using Keras and TensorFlow
 
-Coronavirus has now become the talk of the town, Like most people in the world right now are suffering badly and everyday thousand's of people are dying because of COVID-19, I’m genuinely concerned about them. So, Instead of sitting idle and let negative thoughts grow day by day,I decided to do what I do best .In the above project i used webscrapped data with classes people wearing mask and no mask and trained a resent 50. then i used the model to predict on a webcam feed
+This project is a deep learning-based face mask detection system implemented using **Keras** and **TensorFlow**. The model is trained to classify images into two categories: with mask and without mask. It uses a convolutional neural network (CNN) classifier with the **ReLU activation function** to effectively detect face masks in real-time.
 
-Installation:
+## Project Overview
 
-All the required installation are mentioned in the requirements.txt
+In light of the COVID-19 pandemic, wearing face masks was become crucial for public safety. The objective of this project was to create a reliable, fast, and efficient system that detects whether people are wearing masks in real-time through video or images.
 
-Usage:
+The project focuses on:
+- **Image classification** to identify the presence of a mask.
+- **Real-time detection** using webcam or video feed.
 
-Step 1:training the model with the appropriate data with training.ipynb, downloading the model weights.
+## Features
 
-Step 2:add the model weight in label.py program and execute it.
+- Trained on a diverse dataset containing images with and without face masks.
+- Uses a CNN model built with TensorFlow and Keras.
+- Achieves high accuracy in detecting face masks.
+- Real-time mask detection using a video feed or static image inputs.
+- Simple and efficient model with the **ReLU activation function**.
+  
+## Installation
 
-Step 3:finally run webcam.py, the webcam output gets saved as out.mp4.
+To run this project on your local machine, follow these steps:
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/facemask-detection.git
+cd facemask-detection
