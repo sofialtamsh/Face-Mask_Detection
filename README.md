@@ -3,7 +3,7 @@
 ## Problem Statement 🚨
 
 In today’s world, ensuring safety and health in public places is crucial. While face masks have become a critical part of protecting ourselves and others, it can be difficult to monitor whether people are wearing them, especially in crowded environments. 
-
+ 
 This project solves this problem by leveraging **deep learning** techniques to automatically detect whether individuals are wearing a face mask or not, helping in real-time monitoring for public safety in a variety of settings.
 
 ## Why Do We Need This? 💡
